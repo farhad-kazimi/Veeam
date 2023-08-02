@@ -1,4 +1,5 @@
 # Collect VMs details
+# Prepared by Farhad Kazimi
 function get_vm_details($vm_list){
     # Get runtime date
     $date = Get-Date -format yyyMMdd_HHmmss
