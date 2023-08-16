@@ -1,4 +1,5 @@
 # Disable a given job schedule
+# Prepared by Farhad Kazimi
 function disable_job($job_name){
     $job = Get-VBRJob -Name $job_name
     if ($job){
