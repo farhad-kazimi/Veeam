@@ -14,7 +14,7 @@ function get_vm_details($vm_list){
         Write-Host '    get_vm_details "vm_name1","vm_name2","vm_name3"'
         Write-Host "or"
         Write-Host '    get_vm_details $vm_list'
-        return
+        retur
     }
 
     # Create initial output file with header
