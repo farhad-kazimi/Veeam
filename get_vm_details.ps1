@@ -1,4 +1,3 @@
-
 # Collect VMs details
 # Prepared by Farhad Kazimi
 function get_vm_details($vm_list){
