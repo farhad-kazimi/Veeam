@@ -5,8 +5,6 @@
 # Run 
 Get_vm_details $vm_list
 
-==========================================================================================================================================
-
 # Gets a list of all created jobs
 $a = Get-VBRJob use the blue line only.
 
@@ -21,5 +19,3 @@ $job_list = "JOB_NAME_1","JOB_NAME_2","JOB_NAME_3"
 
 # It will schedule the given job names chaining 2 at a time 
 schedule_jobs $job_list
-
-=============================================================================================================================================
